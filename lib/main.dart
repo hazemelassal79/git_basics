@@ -63,7 +63,9 @@ class _AppState extends State<App> {
                   },
                   child: Text(
                     "ElevatedButton ev",
-                    style: TextStyle(fontSize: 10, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 10, fontWeight: FontWeight.bold,
+                    wordSpacing: 10,
+                    ),
                   )),
 
               IconButton(
